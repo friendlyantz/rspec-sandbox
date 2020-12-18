@@ -5,7 +5,8 @@ Code is written within spec-files.
 
 *Please note: this is for sandbox, simplicity and space-saving purposes only. IRL you should always write code in a separate file from spec*
 
-[ ] - all_matcher_spec.rb
+[x] - all_matcher_spec.rb
+
 [ ] - allow_method_spec.rb
 [ ] - be_matchers_spec.rb
 [ ] - before_and_after_spec.rb
