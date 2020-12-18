@@ -8,7 +8,7 @@ Code is written within spec-files. 🤡
 - [ ] allow_method_spec.rb
 - [ ] be_matchers_spec.rb
 - [ ] before_and_after_spec.rb
-- [x] ~~card_spec.rb~~
+- [x] card_spec.rb
 - [ ] change_matcher_spec.rb
 - [ ] class_double_spec.rb
 - [ ] comparison_matchers_spec.rb
