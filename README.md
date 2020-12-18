@@ -1,14 +1,14 @@
 # TDD-RSpec-sandbox
 my TDD sandbox for Ruby RSpecmy TDD sandbox for Ruby RSpec.
 
-Code is written within spec-files.
+Code is written within spec-files. 🤡
 
-*Please note: this is for sandbox, simplicity and space-saving purposes only. IRL you should always write code in a separate file from spec*
+⚠*Please note: this is for sandbox, simplicity and space-saving purposes only. IRL you should always write code in a separate file from spec*
 - [ ] all_matcher_spec.rb
 - [ ] allow_method_spec.rb
 - [ ] be_matchers_spec.rb
 - [ ] before_and_after_spec.rb
-- [ ] card_spec.rb
+- [x] card_spec.rb
 - [ ] change_matcher_spec.rb
 - [ ] class_double_spec.rb
 - [ ] comparison_matchers_spec.rb
