@@ -8,7 +8,8 @@ Code is written within spec-files. 🤡
 
 - [x] card_spec.rb `context "with even num" do # context instead of describe. same thing it 'should return true' do expect(4.even?).to eq(true) end end`
 - [x] contain_exactly_matcher_spec.rb
-- [ ] before_and_after_spec.rb
+- [x] before_and_after_spec.rb
+      `context vs example. computing speed optimasation for similar object
 - [ ] all_matcher_spec.rb
 - [ ] allow_method_spec.rb
 - [ ] be_matchers_spec.rb
