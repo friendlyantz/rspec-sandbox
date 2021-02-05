@@ -9,11 +9,13 @@ Code is written within spec-files. 🤡
 - [x] card_spec.rb
       `RSpec.describe Card do `let(:card) { Card.new('Ace', 'Spades') }
 - [x] contain_exactly_matcher_spec.rb
-      `context "with even num" do # context instead of describe. same thing `it 'should return true' do
-      `expect(4.even?).to eq(true) `end
+      `context "with even num" do # context instead of describe. same thing 
+      `it 'should return true' do
+      `expect(4.even?).to eq(true) 
+      `end
       `end
 - [x] before_and_after_spec.rb
-      \*speed optimisation
+> speed optimisation
 - [ ] all_matcher_spec.rb
 - [ ] allow_method_spec.rb
 - [ ] be_matchers_spec.rb
