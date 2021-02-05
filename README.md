@@ -6,8 +6,15 @@ Code is written within spec-files. 🤡
 
 ⚠*Please note: this is for sandbox, simplicity and space-saving purposes only. IRL you should always write code in a separate file from spec*
 
-- [x] card_spec.rb `context "with even num" do # context instead of describe. same thing it 'should return true' do expect(4.even?).to eq(true) end end`
+- [x] card_spec.rb 
+  `RSpec.describe Card do
+    `let(:card) { Card.new('Ace', 'Spades') }
 - [x] contain_exactly_matcher_spec.rb
+  `context "with even num" do # context instead of describe. same thing 
+   `it 'should return true' do 
+     `expect(4.even?).to eq(true) 
+   `end 
+  `end
 - [ ] before_and_after_spec.rb
 - [ ] all_matcher_spec.rb
 - [ ] allow_method_spec.rb
