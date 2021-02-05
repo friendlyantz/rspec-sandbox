@@ -6,17 +6,17 @@ Code is written within spec-files. 🤡
 
 ⚠*Please note: this is for sandbox, simplicity and space-saving purposes only. IRL you should always write code in a separate file from spec*
 
-- [x] card_spec.rb
+- [x] card_spec.rb `context "with even num" do # context instead of describe. same thing it 'should return true' do expect(4.even?).to eq(true) end end`
+- [x] contain_exactly_matcher_spec.rb
+- [ ] before_and_after_spec.rb
 - [ ] all_matcher_spec.rb
 - [ ] allow_method_spec.rb
 - [ ] be_matchers_spec.rb
-- [ ] before_and_after_spec.rb
 - [ ] change_matcher_spec.rb
 - [ ] class_double_spec.rb
 - [ ] comparison_matchers_spec.rb
 - [ ] compound_expectations_assignment_spec.rb
 - [ ] compound_expectations_spec.rb
-- [ ] contain_exactly_matcher_spec.rb
 - [ ] context_spec.rb
 - [ ] described_class_spec.rb
 - [ ] double_assignment_spec.rb
