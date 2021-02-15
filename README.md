@@ -1,6 +1,6 @@
 # TDD-RSpec-sandbox
 
-my TDD sandbox for Ruby RSpecmy TDD sandbox for Ruby RSpec.
+my TDD sandbox for **Vanilla** Ruby RSpecmy TDD sandbox for Ruby RSpec.
 
 Code is written within spec-files. 🤡
 
