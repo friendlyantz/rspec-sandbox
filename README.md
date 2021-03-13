@@ -39,7 +39,7 @@ Code is written within spec-files. 🤡
 - [ ] movie_spec.rb
 - [ ] multi_context_hooks_assignment_spec.rb
 - [ ] nested_hooks_assignment_spec.rb
-- [ ] nested_hooks_spec.rb
+- [x] nested_hooks_spec.rb (speeding up and assigning custom params before and after tests)
 - [ ] not_to_method_spec.rb
 - [ ] not_to_spec.rb
 - [ ] one_liner_syntax_spec.rb
