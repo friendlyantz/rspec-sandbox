@@ -30,7 +30,7 @@ Code is written within spec-files. 🤡
 - [ ] double_assignment_spec.rb
 - [ ] double_spec.rb
 - [ ] equality_matchers_spec.rb
-- [ ] explicit_subject_spec.rb
+- [x] explicit_subject_spec.rb - subject/let -parameters setup
 - [ ] have_attributes_matcher_spec.rb
 - [x] implicit_subject_spec.rb - creates instance of Object for each example, once it is called for the first time within that example
 - [ ] include_matcher_spec.rb
