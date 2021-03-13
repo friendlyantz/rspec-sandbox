@@ -32,7 +32,7 @@ Code is written within spec-files. 🤡
 - [ ] equality_matchers_spec.rb
 - [ ] explicit_subject_spec.rb
 - [ ] have_attributes_matcher_spec.rb
-- [ ] implicit_subject_spec.rb
+- [x] implicit_subject_spec.rb - creates instance of Object for each example, once it is called for the first time within that example
 - [ ] include_matcher_spec.rb
 - [ ] instance_doubles_spec.rb
 - [ ] matching_arguments_spec.rb
