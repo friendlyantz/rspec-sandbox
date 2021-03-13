@@ -26,7 +26,7 @@ Code is written within spec-files. 🤡
 - [ ] compound_expectations_assignment_spec.rb
 - [ ] compound_expectations_spec.rb
 - [ ] context_spec.rb
-- [ ] described_class_spec.rb
+- [x] described_class_spec.rb - instead of calling original 'ClassName' use described_class.new...
 - [ ] double_assignment_spec.rb
 - [ ] double_spec.rb
 - [ ] equality_matchers_spec.rb
