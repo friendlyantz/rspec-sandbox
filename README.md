@@ -10,11 +10,7 @@ Code is written within spec-files. 🤡
 `RSpec.describe Card do`
 `let(:card) { Card.new('Ace', 'Spades') }`
 - [x] contain_exactly_matcher_spec.rb
-`context "with even num" do # context instead of describe. same thing `
-`it 'should return true' do`
-`expect(4.even?).to eq(true) `
-`end`
-`end`
+`context "with even num" do # context instead of describe. Also use '#' for instance method or '.' for class method`
 - [x] before_and_after_spec.rb
 `speed optimisation`
 - [ ] all_matcher_spec.rb
@@ -26,23 +22,23 @@ Code is written within spec-files. 🤡
 - [ ] compound_expectations_assignment_spec.rb
 - [ ] compound_expectations_spec.rb
 - [ ] context_spec.rb
-- [x] described_class_spec.rb - instead of calling original 'ClassName' use described_class.new...
+- [x] described_class_spec.rb - `instead of calling original 'ClassName' use 'described_class.new' to future proof ClassName Changes`
 - [ ] double_assignment_spec.rb
 - [ ] double_spec.rb
 - [ ] equality_matchers_spec.rb
-- [x] explicit_subject_spec.rb - subject/let -parameters setup
+- [x] explicit_subject_spec.rb - `subject/let -parameters setup`
 - [ ] have_attributes_matcher_spec.rb
-- [x] implicit_subject_spec.rb - creates instance of Object for each example, once it is called for the first time within that example
+- [x] implicit_subject_spec.rb - `creates instance of Object for each example, once it is called for the first time within that example`
 - [ ] include_matcher_spec.rb
 - [ ] instance_doubles_spec.rb
 - [ ] matching_arguments_spec.rb
 - [ ] movie_spec.rb
 - [ ] multi_context_hooks_assignment_spec.rb
 - [ ] nested_hooks_assignment_spec.rb
-- [x] nested_hooks_spec.rb (speeding up and assigning custom params before and after tests)
+- [x] nested_hooks_spec.rb `(speeding up and assigning custom params before and after tests)`
 - [ ] not_to_method_spec.rb
 - [ ] not_to_spec.rb
-- [x] one_liner_syntax_spec.rb - one liner is-expected (works with subject RSpec helper)
+- [x] one_liner_syntax_spec.rb - `one liner is-expected (works with subject RSpec helper)`
 - [ ] overwriting_let_spec.rb
 - [ ] playground_spec.rb
 - [ ] predicate_methods_spec.rb
